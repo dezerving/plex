@@ -62,6 +62,45 @@ collections:
     template: { name: Best of, year: 2020 }
   Best of 2021:
     template: { name: Best of, year: 2021 }
+  Top Ten Downloaded Weekly:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+    smart_label: year.desc
+    sync_mode: sync
+#    sort_title: +++++++++++++++++++++_1APirated Weekly
+    summary: The Top Ten Most Downloaded Movies of the Week
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_background: https://i.imgur.com/SOVfrIq.png
+    url_poster: https://i.imgur.com/dYdjSOu.png
+  True Crime Documentaries:
+    trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
+    sync_mode: sync
+    smart_label: year.desc
+    summary: True Crime Documentaries
+    url_poster: https://i.imgur.com/PPbzaKa.png
+    url_background: https://i.imgur.com/SOVfrIq.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Mind Bending Movies:
+    trakt_list:
+     - https://trakt.tv/users/hdlists/lists/mindfuck-movies
+     - https://trakt.tv/users/benfranklin/lists/best-mindfucks
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    summary: There’s nothing greater than a film that makes you think. A film that lingers on your mind long after the credits have rolled and is the subject of many conversation and discussion. Trying to piece together the puzzle of what you saw and coming to a conclusion that makes sense or still doesn’t add up.
+    url_poster: https://i.imgur.com/Tl6QMgA.png
+    url_background: https://i.imgur.com/DM1Im1X.jpeg
+  Movies People are Watching:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-films-everyone-s-watching
+    sync_mode: sync
+    smart_label: year.desc
+    summary: Movies That Everyone is Watching
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_poster: https://i.imgur.com/GQca9tU.png
     
 ######################################################
 #                Genre Collections                   #
