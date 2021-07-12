@@ -1,4 +1,204 @@
 ######################################################
+#                Chart Collections                   #
+######################################################
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: random
+  Best of:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
+    sort_title: +1_Best of <<year>>
+    sync_mode: sync
+    summary: Rotten Tomatoes Best Movies of <<year>>
+    smart_label: audience_rating.desc
+collections:
+  Popular on Plex:
+    template: { name: Chart, num: 1 }
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    tautulli_watched:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    summary: Movies Popular on Plex
+  Trending:
+    template: { name: Chart, num: 2 }
+    trakt_trending: 10
+    tmdb_trending_daily: 10
+    tmdb_trending_weekly: 10
+    summary: Movies Trending across the internet
+  Popular:
+    template: { name: Chart, num: 3 }
+    tmdb_popular: 40
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
+      limit: 40
+    summary: Popular Movies across the internet
+  Top Rated:
+    template: { name: Chart, num: 4 }
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
+    tmdb_top_rated: 250
+    summary: Top Rated Movies across the internet
+  Oscars:
+    template: { name: Chart, num: 5 }
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+    summary: Oscar Winning Movies
+  Best of 2014:
+    template: { name: Best of, year: 2014 }
+  Best of 2015:
+    template: { name: Best of, year: 2015 }
+  Best of 2016:
+    template: { name: Best of, year: 2016 }
+  Best of 2017:
+    template: { name: Best of, year: 2017 }
+  Best of 2018:
+    template: { name: Best of, year: 2018 }
+  Best of 2019:
+    template: { name: Best of, year: 2019 }
+  Best of 2020:
+    template: { name: Best of, year: 2020 }
+  Best of 2021:
+    template: { name: Best of, year: 2021 }
+    
+######################################################
+#                Genre Collections                   #
+######################################################
+templates:
+  IMDb Genre:
+    default:
+      title: feature
+      limit: 100
+    imdb_list:
+      - url: https://www.imdb.com/search/title/?title_type=<<title>>&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=<<genre>>
+        limit: <<limit>>
+      - url: https://www.imdb.com/search/title/?title_type=<<title>>&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=<<genre>>&sort=user_rating,desc
+        limit: <<limit>>
+    sort_title: +3_<<collection_name>>
+    sync_mode: sync
+    smart_label: random
+  Other Genre:
+    sort_title: +3_<<collection_name>>
+    sync_mode: sync
+    smart_label: random
+collections:
+  Action:
+    template: { name: IMDb Genre, genre: action }
+    summary: Action film is a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
+  Adventure:
+    template: { name: IMDb Genre, genre: adventure }
+    summary: Adventure film is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.
+  Animation:
+    template: { name: IMDb Genre, genre: animation }
+    summary: Animated film is a collection of illustrations that are photographed frame-by-frame and then played in a quick succession. Since its inception, animation has had a creative and imaginative tendency. Being able to bring animals and objects to life, this genre has catered towards fairy tales and children’s stories. However, animation has long been a genre enjoyed by all ages. As of recent, there has even been an influx of animation geared towards adults. Animation is commonly thought of as a technique, thus it’s ability to span over many different genres.
+  Comedy:
+    template: { name: IMDb Genre, genre: comedy }
+    summary: Comedy is a genre of film that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters. Although the comedy film may take on some serious material, most have a happy ending. Comedy film has the tendency to become a hybrid sub-genre because humor can be incorporated into many other genres. Comedies are more likely than other films to fall back on the success and popularity of an individual star.
+  Crime:
+    template: { name: IMDb Genre, genre: crime }
+    summary: Crime film is a genre that revolves around the action of a criminal mastermind. A Crime film will often revolve around the criminal himself, chronicling his rise and fall. Some Crime films will have a storyline that follows the criminal's victim, yet others follow the person in pursuit of the criminal. This genre tends to be fast paced with an air of mystery – this mystery can come from the plot or from the characters themselves.
+  Documentary:
+    template: { name: IMDb Genre, genre: documentary, title: documentary }
+    summary: Documentary film is a non-fiction genre intended to document reality primarily for the purposes of instruction, education, or maintaining a historical record.
+  Drama:
+    template: { name: IMDb Genre, genre: drama }
+    summary: Drama film is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
+  Family:
+    template: { name: IMDb Genre, genre: family }
+    summary: Family film is a genre that is contains appropriate content for younger viewers. Family film aims to appeal not only to children, but to a wide range of ages. While the storyline may appeal to a younger audience, there are components of the film that are geared towards adults- such as witty jokes and humor. This genre may fall into many other genres, including comedy, adventure, fantasy, and animated film.
+  Fantasy:
+    template: { name: IMDb Genre, genre: fantasy }
+    summary: Fantasy film is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
+  Gangster:
+    template: { name: Other Genre }
+    imdb_list:
+      - https://www.imdb.com/list/ls026270180/
+      - https://www.imdb.com/list/ls000093502/
+    summary: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
+  Halloween.:
+    template: { name: Other Genre }
+    trakt_list:
+      - https://trakt.tv/users/kairbear08/lists/halloween
+      - https://trakt.tv/users/mybicycle/lists/halloween
+      - https://trakt.tv/users/jayinftl/lists/halloween
+      - https://trakt.tv/users/roswellgeek/lists/halloween
+    name_mapping: Halloween (Season)
+    summary: Halloween film is a genre that revolves around the plot involving Halloween.
+  History:
+    template: { name: IMDb Genre, genre: history }
+    summary: History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
+  Horror:
+    template: { name: IMDb Genre, genre: horror }
+    summary: Horror film is a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
+  Martial Arts:
+    template: { name: Other Genre }
+    imdb_list:
+      - https://www.imdb.com/list/ls000099643/
+      - https://www.imdb.com/list/ls068611186/
+      - https://www.imdb.com/list/ls068378513/
+      - https://www.imdb.com/list/ls090404120/
+    summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
+  Music:
+    template: { name: IMDb Genre, genre: music, limit: 200 }
+    summary: Music film is genre that revolves around music being an integral part of the characters lives.
+  Musical:
+    template: { name: IMDb Genre, genre: musical, limit: 200 }
+    summary: A Musical interweaves vocal and dance performances into the narrative of the film. The songs of a film can either be used to further the story or simply enhance the experience of the audience. These films are often done on a grand scale and incorporate lavish costumes and sets. Traditional musicals center on a well-known star, famous for their dancing or singing skills (i.e. Fred Astaire, Gene Kelly, Judy Garland). These films explore concepts such are love and success, allowing the audience to escape from reality.
+  Mystery:
+    template: { name: IMDb Genre, genre: mystery }
+    summary: A Mystery film centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
+  Pandemic:
+    template: { name: Other Genre }
+    imdb_list:
+      - url: https://www.imdb.com/search/keyword/?keywords=deadly-virus%2Chealth-crisis%2Cpandemic%2Cpublic-health-epidemic%2Cvirus%2Ccoronavirus&sort=moviemeter,asc&mode=detail&page=1&ref_=kw_ref_key
+        limit: 1000
+      - url: https://www.imdb.com/list/ls041901506/
+      - url: https://www.imdb.com/list/ls092321048/
+    summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
+  Romance:
+    template: { name: IMDb Genre, genre: romance, limit: 200 }
+    summary: "Romance film can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to: love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
+  Romantic Comedy:
+    template: { name: IMDb Genre, genre: "romance,comedy", limit: 200 }
+    summary: Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy film revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending.
+    filters:
+      genre: Comedy
+  Romantic Drama:
+    template: { name: IMDb Genre, genre: "romance,drama", limit: 200 }
+    summary: Romantic Drama film is a genre that explores the complex side of love. The plot usually centers around an obstacle that is preventing love between two people. The obstacles in Romantic Drama film can range from a family's disapproval, to forbidden love, to one's own psychological restraints. Many Romantic Dramas end with the lovers separating because of the enormity of the obstacle, the realization of incompatibility, or simply because of fate.
+    filters:
+      genre: Drama
+  Sci-Fi:
+    template: { name: IMDb Genre, genre: sci-fi }
+    summary: Science Fiction (Sci-Fi) film is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology.
+  Sports:
+    template: { name: IMDb Genre, genre: sport, limit: 200 }
+    summary: A Sport Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
+  Stand Up Comedy:
+    template: { name: Other Genre }
+    imdb_list:
+      - https://www.imdb.com/list/ls070221411/
+      - https://www.imdb.com/list/ls086584751/
+      - https://www.imdb.com/list/ls086022668/
+      - https://www.imdb.com/list/ls049792208/
+    summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
+  Sword & Sorcery:
+    template: { name: Other Genre }
+    imdb_list: https://www.imdb.com/list/ls022909805
+    summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
+  Thriller:
+    template: { name: IMDb Genre, genre: thriller }
+    summary: Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.
+  War:
+    template: { name: IMDb Genre, genre: war, limit: 200 }
+    summary: War Film is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.
+  Western:
+    template: { name: IMDb Genre, genre: western, limit: 200 }
+    summary: "Western Film is a genre that revolves around stories primarily set in the late 19th century in the American Old West. Most Westerns are set between the American Civil War (1865) and the early 1900s. Common themes within Western Film include: the conquest of the wild west, the cultural separation of the East and the West, the West’s resistance to modern change, the conflict between Cowboys and Indians, outlaws, and treasure/gold hunting. American Western Film usually revolves around a stoic hero and emphasizes the importance of honor and sacrifice."
+
+######################################################
 #                Movie Collections                   #
 ######################################################
 templates:
@@ -224,3 +424,50 @@ collections:
     template: {name: Collection, collection: 2326}
   X-Men:
     template: {name: Collection, collection: "748, 453993, 448150", movie: 567604}
+
+######################################################
+#                Studio Collections                  #
+######################################################
+templates:
+  Studio:
+    optional:
+      - company
+    tmdb_company: <<company>>
+    sort_title: +2_<<collection_name>>
+    sync_mode: sync
+    smart_label: release.desc
+collections:
+  Aardman:
+    template: { name: Studio, company: 297 }
+    summary: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit.
+  Blue Sky:
+    template: { name: Studio, company: 9383 }
+    summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
+  DreamWorks:
+    template: { name: Studio, company: 521 }
+    filters:
+      collection.not: Aardman
+    summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
+  Illumination Entertainment:
+    template: { name: Studio, company: 6704 }
+    summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
+  Pixar:
+    template: { name: Studio, company: 3 }
+    summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
+  Studio Ghibli:
+    template: { name: Studio, company: 10342 }
+    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+  Sony Pictures Animation:
+    template: { name: Studio, company: 2251 }
+    summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+  Warner Animation Group:
+    template: { name: Studio, company: 25120 }
+    summary: The Warner Animation Group (WAG) is an American animation studio that is the feature animation division of Warner Bros. Entertainment. Established on January 7, 2013, the studio is the successor to the dissolved 2D traditional hand-drawn animation studio Warner Bros. Feature Animation, which shut down in 2003 and the dissolved family film division Warner Bros. Family Entertainment, which shut down in 2009. The entity is also a sister animation studio of the regular animation studio Warner Bros. Animation
+  Walt Disney Animation Studios:
+    template: { name: Studio }
+    imdb_list: https://www.imdb.com/list/ls059383351/
+    summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
+  Walt Disney Pictures:
+    template: { name: Studio }
+    imdb_list: https://www.imdb.com/list/ls077114097/
+    summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
