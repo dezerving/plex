@@ -89,8 +89,8 @@ collections:
     smart_label: critic_rating.desc
     sync_mode: sync
     summary: There’s nothing greater than a film that makes you think. A film that lingers on your mind long after the credits have rolled and is the subject of many conversation and discussion. Trying to piece together the puzzle of what you saw and coming to a conclusion that makes sense or still doesn’t add up.
-    url_poster: https://i.imgur.com/Tl6QMgA.png
-    url_background: https://i.imgur.com/DM1Im1X.jpeg
+#    url_poster: https://i.imgur.com/Tl6QMgA.png
+#    url_background: https://i.imgur.com/DM1Im1X.jpeg
   Movies People are Watching:
     trakt_list: https://trakt.tv/users/hdlists/lists/top-films-everyone-s-watching
     sync_mode: sync
