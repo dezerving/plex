@@ -250,6 +250,8 @@ templates:
     sync_mode: sync
     collection_order: release
 collections:
+  Marvel Cinematic Universe:
+    template: {name: Collection, collection: 9387}
   "300":
     template: {name: Collection, collection: 125570}
   Alien:
@@ -358,8 +360,6 @@ collections:
     template: {name: Collection, collection: 119}
   Mad Max:
     template: {name: Collection, collection: 8945}
-  Marvel Cinematic Universe:
-    template: {name: Collection, collection: 9387}
   The Matrix:
     template: {name: Collection, collection: 2344}
   The Maze Runner:
