@@ -425,6 +425,8 @@ collections:
     template: {name: Collection, collection: 531331}
   Mall Cop:
     template: {name: Collection, collection: 328372}
+  Marvel:
+    template: {name: Collection, collection: 9387)
   The Man with No Name:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls023916334/
