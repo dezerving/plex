@@ -7,7 +7,7 @@ templates:
     sync_mode: sync
     smart_label: random
 collections:
-  Plex Popular:
+  Popular on Plex:
     template: { name: Chart, num: 1 }
     tautulli_popular:
       list_days: 30
