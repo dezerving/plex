@@ -73,17 +73,6 @@ collections:
     radarr_monitor: true
     url_background: https://i.imgur.com/SOVfrIq.png
     url_poster: https://i.imgur.com/dYdjSOu.png
-  True Crime Documentaries:
-    trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
-    sort_title: +1_CC
-    sync_mode: sync
-    smart_label: year.desc
-    summary: True Crime Documentaries
-    url_poster: https://i.imgur.com/PPbzaKa.png
-    url_background: https://i.imgur.com/SOVfrIq.png
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
   Mind Bending Movies:
     trakt_list:
      - https://trakt.tv/users/hdlists/lists/mindfuck-movies
