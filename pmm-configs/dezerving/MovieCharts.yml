@@ -83,9 +83,31 @@ collections:
     summary: There’s nothing greater than a film that makes you think. A film that lingers on your mind long after the credits have rolled and is the subject of many conversation and discussion. Trying to piece together the puzzle of what you saw and coming to a conclusion that makes sense or still doesn’t add up.
 #    url_poster: https://i.imgur.com/Tl6QMgA.png
 #    url_background: https://i.imgur.com/DM1Im1X.jpeg
+  Parody Movie Collection:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: +1_CCCC
+    summary: Top 50 Parody Movies of All Time
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_poster: https://i.imgur.com/yFtJ5eV.png
+    url_background: https://i.imgur.com/eELv4eB.jpg
+  Documentary Collection:
+    trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: +1_CCCCC
+    summary: Top Rated Documentaries from 1980 onward
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_poster: https://i.imgur.com/2AtAgce.jpg
+    url_background: https://i.imgur.com/lJQwoDH.jpg
   Movies People are Watching:
     trakt_list: https://trakt.tv/users/hdlists/lists/top-films-everyone-s-watching
-    sort_title: +1_CCCC
+    sort_title: +1_CCCCCC
     sync_mode: sync
     smart_label: year.desc
     summary: Movies That Everyone is Watching
