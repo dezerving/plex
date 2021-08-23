@@ -31,7 +31,7 @@ collections:
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
     summary: Movies Trending across the internet
-    url_poster: https://i.imgur.com/6WGxJHH.png
+    url_poster: https://i.imgur.com/9tcdeU4.png
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
@@ -44,7 +44,7 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet
-    url_poster: https://imgur.com/6WGxJHH
+    url_poster: https://i.imgur.com/6WGxJHH.png
   Oscars:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
