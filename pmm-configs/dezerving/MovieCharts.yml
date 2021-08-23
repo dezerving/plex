@@ -49,7 +49,7 @@ collections:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
-    url_poster: https://imgur.com/U3re93Z
+    url_poster: https://i.imgur.com/U3re93Z.jpg
   Best of 2014:
     template: { name: Best of, year: 2014 }
   Best of 2015:
