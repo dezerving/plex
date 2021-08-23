@@ -9,52 +9,52 @@ templates:
 collections:
   HBO Max:
     template: { name: network, network: "49, 2593, 3186, 3308" }
-    url_poster: https://imgur.com/sZ1hj9z
+    url_poster: https://i.imgur.com/sZ1hj9z.png
 #  Cinemax:
 #    template: { name: network, network: 359 }
   Showtime:
     template: { name: network, network: 67 }
-    url_poster: https://imgur.com/LTBT1kT
+    url_poster: https://i.imgur.com/LTBT1kT.png
   Netflix:
     template: { name: network, network: 213 }
-    url_poster: https://imgur.com/QbAK6Vb
+    url_poster: https://i.imgur.com/QbAK6Vb.png
   Hulu:
     template: { name: network, network: 453 }
-    url_poster: https://imgur.com/MHRDxr6
+    url_poster: https://i.imgur.com/MHRDxr6.png
   Syfy:
     template: { name: network, network: "77, 3701" }
   Starz:
     template: { name: network, network: "318, 758, 4906" }
-    url_poster: https://imgur.com/Jb62J6v
+    url_poster: https://i.imgur.com/Jb62J6v.png
   HGTV:
     template: { name: network, network: 210 }
   TBS:
     template: { name: network, network: "68, 160, 4888" }
   NatGeo:
     template: { name: network, network: "43, 799, 1756, 1825, 3355, 4293, 4476" }
-    url_poster: https://imgur.com/YOACBTA
+    url_poster: https://i.imgur.com/YOACBTA.png
   Peacock:
     template: { name: network, network: 3353 }
-    url_poster: https://imgur.com/cmVLWQo
+    url_poster: https://i.imgur.com/cmVLWQo.png
   Prime Video:
     template: { name: network, network: 1024 }
-    url_poster: https://imgur.com/CL11uOh
+    url_poster: https://i.imgur.com/CL11uOh.png
   Paramount+:
     template: { name: network, network: "2076, 4330" }
-    url_poster: https://imgur.com/uqkK3eD
+    url_poster: https://i.imgur.com/uqkK3eD.png
   YouTube:
     template: { name: network, network: "247, 1436, 4869" }
   FX:
     template: { name: network, network: 88 }
-    url_poster: https://imgur.com/II9zpHy
+    url_poster: https://i.imgur.com/II9zpHy.png
   Disney+:
     template: { name: network, network: "2739, 2919" }
-    url_poster: https://imgur.com/rMeUuh9
+    url_poster: https://i.imgur.com/rMeUuh9.png
   Apple TV+:
     template: { name: network, network: 2552 }
-    url_poster: https://imgur.com/p8wlTY8
+    url_poster: https://i.imgur.com/p8wlTY8.png
   Discovery+:
     template: { name: network, network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741" }
-    url_poster: https://imgur.com/en5xPEP
+    url_poster: https://i.imgur.com/en5xPEP.png
   A&E:
     template: { name: network, network: "129, 2639, 3688" }
