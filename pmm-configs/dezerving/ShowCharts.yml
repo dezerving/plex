@@ -18,7 +18,7 @@ collections:
       list_size: 20
       list_buffer: 20
     summary: Shows Popular on Plex
-    url_poster: https://imgur.com/EfNjXO2
+    url_poster: https://i.imgur.com/EfNjXO2.png
   Trending:
     template: { name: Chart, num: 2 }
     trakt_trending: 10
