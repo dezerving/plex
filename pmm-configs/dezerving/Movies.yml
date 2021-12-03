@@ -41,6 +41,9 @@ collections:
     template: {name: Collection, collection: 31562}
   The Chronicles of Narnia:
     template: {name: Collection, collection: 420}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
   The Conjuring:
     template: {name: Collection, collection: 313086}
   The Dark Knight:
