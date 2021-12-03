@@ -93,9 +93,9 @@ collections:
     smart_label: critic_rating.desc
     sort_title: +1_CCCC
     summary: Top 50 Parody Movies of All Time
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
+    radarr_add: false
+    radarr_search: false
+    radarr_monitor: false
     url_poster: https://i.imgur.com/yFtJ5eV.png
     url_background: https://i.imgur.com/eELv4eB.jpg
   Documentary Collection:
@@ -104,9 +104,9 @@ collections:
     smart_label: critic_rating.desc
     sort_title: +1_CCCCC
     summary: Top Rated Documentaries from 1980 onward
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
+    radarr_add: false
+    radarr_search: false
+    radarr_monitor: false
     url_poster: https://i.imgur.com/2AtAgce.jpg
     url_background: https://i.imgur.com/lJQwoDH.jpg
   Movies People are Watching:
@@ -115,7 +115,7 @@ collections:
     sync_mode: sync
     smart_label: year.desc
     summary: Movies That Everyone is Watching
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
+    radarr_add: false
+    radarr_search: false
+    radarr_monitor: false
     url_poster: https://i.imgur.com/GQca9tU.png
