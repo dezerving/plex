@@ -18,6 +18,8 @@ collections:
     template: {name: Collection, collection: 9387}
   "300":
     template: {name: Collection, collection: 125570}
+  A Quiet Place:
+    template: {name: Collection, collection: 521226}
   Alien:
     template: {name: Collection, collection: "8091, 135416"}
   The Amazing Spider-Man:
