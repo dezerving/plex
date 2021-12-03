@@ -11,8 +11,8 @@ templates:
     sync_mode: sync
     collection_order: release
     radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
+    radarr_search: false
+    radarr_monitor: false
 collections:
   Marvel Cinematic Universe:
     template: {name: Collection, collection: 9387}
