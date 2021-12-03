@@ -24,13 +24,16 @@ collections:
     trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
+    sonarr_add: true
+    sonarr_search: false
+    sonarr_monitor: false
     summary: Shows Trending across the internet
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
-    sonarr_add: true
-    sonarr_search: true
-    sonarr_monitor: true
+    sonarr_add: false
+    sonarr_search: false
+    sonarr_monitor: false
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
       limit: 40
@@ -41,14 +44,14 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
       limit: 100
     tmdb_top_rated: 100
-    sonarr_add: true
-    sonarr_search: true
-    sonarr_monitor: true
+    sonarr_add: false
+    sonarr_search: false
+    sonarr_monitor: false
     summary: Top Rated Movies across the internet
   Emmy Winners:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
-    sonarr_add: true
-    sonarr_search: true
-    sonarr_monitor: true
+    sonarr_add: false
+    sonarr_search: false
+    sonarr_monitor: false
     summary: Emmy Winning Shows
