@@ -1,0 +1,291 @@
+######################################################
+#                Movie Collections                   #
+######################################################
+templates:
+  Collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+collections:
+  Marvel Cinematic Universe:
+    template: {name: Collection, collection: 9387}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  "300":
+    template: {name: Collection, collection: 125570}
+  A Quiet Place:
+    template: {name: Collection, collection: 521226}
+  Alien:
+    template: {name: Collection, collection: "8091, 135416"}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  The Amazing Spider-Man:
+    template: {name: Collection, collection: 125574}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  American Pie:
+    template: {name: Collection, collection: "2806, 298820"}
+  Anchorman:
+    template: {name: Collection, collection: 93791}
+  Annabelle:
+    template: {name: Collection, collection: 402074}
+  Austin Powers:
+    template: {name: Collection, collection: 1006}
+  Alien vs Predator:
+    template: {name: Collection, collection: 115762}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Bad Boys:
+    template: {name: Collection, collection: 14890}
+  Blade:
+    template: {name: Collection, collection: 735}
+  Blade Runner:
+    template: {name: Collection, collection: 422837}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Borat Moviefilms:
+    template: {name: Collection, collection: 747168}
+  The Bourne:
+    template: {name: Collection, collection: 31562}
+  The Chronicles of Narnia:
+    template: {name: Collection, collection: 420}
+  The Conjuring:
+    template: {name: Collection, collection: 313086}
+  The Dark Knight:
+    template: {name: Collection, collection: 263}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Deadpool:
+    template: {name: Collection, collection: 448150, movie: 567604}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Die Hard:
+    template: {name: Collection, collection: 1570}
+  Divergent:
+    template: {name: Collection, collection: 283579}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Fantastic Beasts:
+    template: {name: Collection, collection: 435259}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  The Fast and the Furious:
+    template: {name: Collection, collection: "9485, 688042"}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Final Destination:
+    template: {name: Collection, collection: 8864}
+  Finding Nemo:
+    template: {name: Collection, collection: 137697}
+  Friday the 13th:
+    template: {name: Collection, collection: 9735, movie: "6466, 222724"}
+  Ghostbusters:
+    template: {name: Collection, collection: 2980, movie: 43074}
+  The Godfather:
+    template: {name: Collection, collection: 230}
+  Godzilla (MonsterVerse):
+    template: {name: Collection, collection: 535313, movie: 293167}
+    sort_title: Godzilla 05 (MonsterVerse)
+  Grown Ups:
+    template: {name: Collection, collection: 180546}
+  Halloween:
+    template: {name: Collection, collection: "91361, 126209"}
+  The Hangover:
+    template: {name: Collection, collection: 86119}
+  Harold & Kumar:
+    template: {name: Collection, collection: 30663}
+  Harry Potter:
+    template: {name: Collection, collection: 1241}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  ... Has Fallen:
+    template: {name: Collection, collection: 386534}
+    name_mapping: Has Fallen
+  High School Musical:
+    template: {name: Collection, collection: 87253}
+  The Hobbit:
+    template: {name: Collection, collection: 121938}
+  Home Alone:
+    template: {name: Collection, collection: 9888}
+  Horrible Bosses:
+    template: {name: Collection, collection: 280588}
+  The Human Centipede:
+    template: {name: Collection, collection: 96671}
+  The Hunger Games:
+    template: {name: Collection, collection: 131635}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  The Huntsman:
+    template: {name: Collection, collection: 393379}
+  Ice Age:
+    template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893"}
+  Indiana Jones:
+    template: {name: Collection, collection: 84}
+  It:
+    template: {name: Collection, collection: 477962}
+  James Bond:
+    template: {name: Collection, collection: 645}
+  John Wick:
+    template: {name: Collection, collection: 404609}
+  Jumanji:
+    template: {name: Collection, collection: 495527}
+  Jump Street:
+    template: {name: Collection, collection: 212562}
+  Jurassic Park:
+    template: {name: Collection, collection: 328, movie: 630322}
+  Kevin Hart Stand Up:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls049792208/
+    summary: Collection of Kevin Hart's Stand Up Comedy Specials
+  Kingsman:
+    template: {name: Collection, collection: 391860}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  The Lord of the Rings:
+    template: {name: Collection, collection: 119}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Mad Max:
+    template: {name: Collection, collection: 8945}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  The Matrix:
+    template: {name: Collection, collection: 2344}
+  The Maze Runner:
+    template: {name: Collection, collection: 295130}
+  Mean Girls:
+    template: {name: Collection, collection: 99606}
+  Meet the Parents:
+    template: {name: Collection, collection: 51509}
+  Men In Black:
+    template: {name: Collection, collection: 86055}
+  "Mission: Impossible":
+    template: {name: Collection, collection: 87359}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    name_mapping: Mission Impossible
+  National Treasure:
+    template: {name: Collection, collection: 52984}
+  Neighbors:
+    template: {name: Collection, collection: 400700}
+  Night at the Museum:
+    template: {name: Collection, collection: 85943}
+  A Nightmare on Elm Street:
+    template: {name: Collection, collection: 8581, movie: "6466, 23437"}
+  Now You See Me:
+    template: {name: Collection, collection: 382685}
+  Ocean's:
+    template: {name: Collection, collection: 304}
+  Pacific Rim:
+    template: {name: Collection, collection: 363369}
+  Percy Jackson:
+    template: {name: Collection, collection: 179919}
+  Pirates of the Caribbean:
+    template: {name: Collection, collection: 295}
+  Pitch Perfect:
+    template: {name: Collection, collection: 306031}
+  Planet of the Apes:
+    template: {name: Collection, collection: 173710}
+  Predator:
+    template: {name: Collection, collection: 399}
+  The Purge:
+    template: {name: Collection, collection: 256322}
+  Resident Evil:
+    template: {name: Collection, collection: 17255}
+  "Resident Evil: Biohazard":
+    template: {name: Collection, collection: 133352}
+    name_mapping: Resident Evil Biohazard
+  RoboCop:
+    template: {name: Collection, collection: 5547}
+  Rocky:
+    template: {name: Collection, collection: 1575}
+  Rush Hour:
+    template: {name: Collection, collection: 90863}
+  Saw:
+    template: {name: Collection, collection: 656}
+  Scary Movie:
+    template: {name: Collection, collection: 4246}
+  Sherlock Holmes:
+    template: {name: Collection, collection: 102322}
+  Shrek:
+    template: {name: Collection, collection: 2150}
+  Spider-Man (Avengers):
+    template: {name: Collection, collection: 531241}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Spider-Man (Original):
+    template: {name: Collection, collection: 556}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  "Star Trek: Alternate Reality":
+    template: {name: Collection, collection: 115575}
+    name_mapping: Star Trek Alternate Reality
+  "Star Trek: The Next Generation":
+    template: {name: Collection, collection: 115570}
+    name_mapping: Star Trek The Next Generation
+  "Star Trek: The Original Series":
+    template: {name: Collection, collection: 151}
+    name_mapping: Star Trek The Original Series
+  "Star Wars: Skywalker Saga":
+    template: {name: Collection, collection: 10}
+    name_mapping: Star Wars Skywalker Saga
+  "Star Wars: Legends":
+    template: {name: Collection}
+    tmdb_movie: 348350, 330459
+    summary: "Star Wars Anthology Films and other Star Wars Movies"
+    name_mapping: Star Wars Legends
+  Taken:
+    template: {name: Collection, collection: 135483}
+  Ted:
+    template: {name: Collection, collection: 266672}
+  The Terminator:
+    template: {name: Collection, collection: 528}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Texas Chainsaw Massacre:
+    template: {name: Collection, collection: "111751, 425175"}
+  Tomb Raider:
+    template: {name: Collection, collection: "2467, 621142"}
+  Toy Story:
+    template: {name: Collection, collection: 10194, movie: 130925}
+  Transformers:
+    template: {name: Collection, collection: 8650}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  The Transporter:
+    template: {name: Collection, collection: 9518}
+  Unbreakable:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls022101006/
+    summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
+  Underworld:
+    template: {name: Collection, collection: 2326}
+  X-Men:
+    template: {name: Collection, collection: "748, 453993, 448150", movie: 567604}
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
