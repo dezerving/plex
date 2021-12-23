@@ -16,7 +16,8 @@ templates:
 collections:
   Marvel Cinematic Universe:
 #    template: {name: Collection, collection: 9387}
-    template: {name: imdb, summary: "***.", poster: https://theposterdb.com/api/assets/36047}
+    template: {name: Collection_custom}
+    poster: https://theposterdb.com/api/assets/36047
     imdb_list:
       - https://www.imdb.com/list/ls031310794/
   "300":
