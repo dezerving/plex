@@ -18,8 +18,7 @@ collections:
 #    template: {name: Collection, collection: 9387}
     template: {name: Collection}
     poster: https://theposterdb.com/api/assets/36047
-    imdb_list:
-      - https://www.imdb.com/list/ls031310794/
+    imdb_list: https://www.imdb.com/list/ls031310794/
   "300":
     template: {name: Collection, collection: 125570}
   A Quiet Place:
