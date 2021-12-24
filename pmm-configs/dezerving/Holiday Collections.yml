@@ -24,7 +24,7 @@ collections:
     template: {name: Holiday, holiday: "St. Patrick's Day"}
     imdb_list: https://www.imdb.com/list/ls063934595/
   Thanksgiving Movies:
-    schedule: range(10/01-10/14)
+    schedule: range(10/17-10/31)
     sort_title: '!AA'
     template: {name: Holiday, holiday: Thanksgiving}
     imdb_list: 
