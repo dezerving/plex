@@ -3,7 +3,7 @@
 #######################################################
 templates:
   Language:
-    smart_filter:
+    plex_search:
       all:
         audio_language: <<language>>
       sort_by: release.desc
