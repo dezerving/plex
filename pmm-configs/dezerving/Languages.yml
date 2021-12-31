@@ -5,7 +5,7 @@ templates:
   Language:
     sort_title: '!++++_<<collection_name>>'
     sync_mode: sync
-    collection_order: alpha
+    collection_order: release.desc
     plex_search:
       all:
         audio_language: <<language>>
