@@ -14,5 +14,5 @@ templates:
 collections:
   Bollywood Movies:
     template: {name: Language, language: hi}
-    summary: Here is the current collection of Bollywood movies available on Plex.
+    summary: "Here is the current collection of Bollywood movies available on Plex."
     url_poster: https://i.imgur.com/s52KOu1.jpg
