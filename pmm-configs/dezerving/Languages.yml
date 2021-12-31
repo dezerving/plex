@@ -11,4 +11,4 @@ templates:
         audio_language: <<language>>
 collections:
   Bollywood:
-    template: {name: Language, language: Hindi}
+    template: {name: Language, language: hi}
