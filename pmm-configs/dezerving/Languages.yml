@@ -7,7 +7,7 @@ templates:
       all:
         audio_language: <<language>>
         audio_language.not: combined
-      sort_by: release.desc
+      sort_by: release.asc
     sort_title: '!++++_<<collection_name>>'
     sync_mode: sync
     visible_home: true
