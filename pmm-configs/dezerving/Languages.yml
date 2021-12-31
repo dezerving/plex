@@ -3,14 +3,14 @@
 #######################################################
 templates:
   Language:
-    sort_title: '!++++_<<collection_name>>'
-    sync_mode: sync
-    collection_order: release.desc
-    plex_search:
+    smart_filter:
       all:
         audio_language: <<language>>
+      sort_by: release.desc
+    sort_title: '!++++_<<collection_name>>'
+    sync_mode: sync
 collections:
   Bollywood Movies:
     template: {name: Language, language: hi}
-    summary: Here is the current ollection of Bollywood movies available on Plex.
+    summary: Here is the current collection of Bollywood movies available on Plex.
     url_poster: https://i.imgur.com/s52KOu1.jpg
