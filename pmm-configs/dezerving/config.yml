@@ -1,0 +1,121 @@
+libraries:                                      # Library mappings must have a colon (:) placed after them
+  4K Movies:
+    metadata_path:
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Overlays.yml
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Movies4k.yml
+    radarr:                                             # Can be individually specified per library as well
+      url: <radarr_4k_url>
+      token: <radarr_token>
+      version: v3
+      add: false
+      root_folder_path: <root_folder_path>
+      monitor: true
+      availability: announced
+      quality_profile: 4K
+      tag: pmm
+      search: false
+      add_existing: false
+      radarr_path:
+      plex_path:
+  Movies:
+    metadata_path:
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Languages.yml
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Holidays.yml
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Overlays.yml
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Movies.yml
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/MovieCharts.yml
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/IMDBGenres.yml
+  TV Shows:
+    metadata_path:
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/ShowCharts.yml
+      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Networks.yml
+settings:                                       # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  assets_for_all: false
+  sync_mode: append
+  show_unmanaged: true
+  show_filtered: false
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+  missing_only_released: false
+  create_asset_folders: false
+  collection_minimum: 1
+  delete_below_minimum: false
+  tvdb_language: default
+  show_missing_assets: true
+  show_missing_season_assets: false
+  delete_not_scheduled: false
+  only_filter_missing: false
+  ignore_ids:
+  ignore_imdb_ids:
+  asset_depth: 0
+  dimensional_asset_rename: false
+  show_options: false
+  playlist_sync_to_user: all
+webhooks:
+  error: notifiarr
+  run_start: notifiarr
+  run_end: notifiarr
+  collection_changes:
+plex:                                           # Can be individually specified per library as well
+  url: <plex_url>
+  token: <plex_token>
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: <tmdb_api_key>
+  language: en
+tautulli:                                       # Can be individually specified per library as well
+  url: <tautulli_url>
+  apikey: <tautulli_api_key>
+omdb:
+  apikey: <omdb_api_key>
+notifiarr:
+  apikey: <notifiarr_api_key>
+radarr:                                         # Can be individually specified per library as well
+  url: <radarr_url>
+  token: <radarr_token>
+  version: v3
+  add: false
+  root_folder_path: <root_folder_path>
+  monitor: true
+  availability: announced
+  quality_profile: HD-1080p
+  tag: pmm
+  search: false
+  add_existing: false
+  radarr_path:
+  plex_path:
+sonarr:                                         # Can be individually specified per library as well
+  url: <sonarr_url>
+  token: <sonarr_token>
+  version: v3
+  add: false
+  root_folder_path: <root_folder_path>
+  monitor: all
+  quality_profile: HD-720p/1080p
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag: pmm
+  search: false
+  cutoff_search: false
+  add_existing: false
+  sonarr_path:
+  plex_path:
+trakt:
+  client_id: <trakt_client_id>
+  client_secret: <trakt_client_secret>
+  authorization:
+    access_token: <trakt_access_token>
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: <trakt_refresh_token>
+    scope: public
+    created_at: 1633924845
