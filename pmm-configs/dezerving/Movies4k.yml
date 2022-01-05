@@ -12,10 +12,19 @@ templates:
     collection_order: release
 collections:
   Marvel Cinematic Universe:
-    template: {name: Collection, collection: 9387}
+    imdb_list: https://www.imdb.com/list/ls031310794/
+    url_poster: https://theposterdb.com/api/assets/36047
+    sync_mode: sync
+    collection_order: release
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
+  Marvel Cinematic Universe - Chronological:
+#    template: {name: Collection}
+    trakt_list: https://trakt.tv/users/username57/lists/marvel-cinematic-universe-mcu-timeline?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/36047
+    sync_mode: sync
+    collection_order: custom
   "300":
     template: {name: Collection, collection: 125570}
   A Quiet Place:
