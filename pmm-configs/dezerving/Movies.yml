@@ -18,8 +18,6 @@ collections:
     plex_search:
       all:
         hdr: true
-    filters:
-      resolution.not: 4K
     item_overlay: HDR
     build_collection: false
   Marvel Cinematic Universe:
