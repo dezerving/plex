@@ -1,7 +1,6 @@
 libraries:                                      # Library mappings must have a colon (:) placed after them
   4K Movies:
     metadata_path:
-      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Overlays.yml
       - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Movies4k.yml
     radarr:                                             # Can be individually specified per library as well
       url: <radarr_4k_url>
@@ -21,7 +20,6 @@ libraries:                                      # Library mappings must have a c
     metadata_path:
       - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Languages.yml
       - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Holidays.yml
-      - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Overlays.yml
       - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/Movies.yml
       - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/MovieCharts.yml
       - url: https://raw.githubusercontent.com/dezerving/plex/main/pmm-configs/dezerving/IMDBGenres.yml
