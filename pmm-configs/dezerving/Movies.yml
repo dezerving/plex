@@ -14,6 +14,14 @@ templates:
     radarr_search: false
     radarr_monitor: false
 collections:
+  HDR Overlay:
+    plex_search:
+      all:
+        hdr: true
+    filters:
+      resolution.not: 4K
+    item_overlay: HDR
+    build_collection: false
   Marvel Cinematic Universe:
 #    template: {name: Collection, collection: 9387}
 #    template: {name: Collection}
