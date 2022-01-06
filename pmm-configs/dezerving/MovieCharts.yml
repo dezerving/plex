@@ -17,11 +17,11 @@ collections:
     template: { name: Chart, num: 1 }
     tautulli_popular:
       list_days: 30
-      list_size: 20
+      list_size: 30
       list_buffer: 20
     tautulli_watched:
       list_days: 30
-      list_size: 20
+      list_size: 30
       list_buffer: 20
     summary: Movies Popular on Plex
     url_poster: https://i.imgur.com/3qlI712.png
@@ -50,22 +50,22 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
     url_poster: https://i.imgur.com/U3re93Z.jpg
-  Best of 2014:
-    template: { name: Best of, year: 2014 }
-  Best of 2015:
-    template: { name: Best of, year: 2015 }
-  Best of 2016:
-    template: { name: Best of, year: 2016 }
-  Best of 2017:
-    template: { name: Best of, year: 2017 }
-  Best of 2018:
-    template: { name: Best of, year: 2018 }
-  Best of 2019:
-    template: { name: Best of, year: 2019 }
-  Best of 2020:
-    template: { name: Best of, year: 2020 }
-  Best of 2021:
-    template: { name: Best of, year: 2021 }
+#  Best of 2014:
+#    template: { name: Best of, year: 2014 }
+#  Best of 2015:
+#    template: { name: Best of, year: 2015 }
+#  Best of 2016:
+#    template: { name: Best of, year: 2016 }
+#  Best of 2017:
+#    template: { name: Best of, year: 2017 }
+#  Best of 2018:
+#    template: { name: Best of, year: 2018 }
+#  Best of 2019:
+#    template: { name: Best of, year: 2019 }
+#  Best of 2020:
+#    template: { name: Best of, year: 2020 }
+#  Best of 2021:
+#    template: { name: Best of, year: 2021 }
   Top Ten Downloaded Weekly:
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
     sort_title: +1_C
