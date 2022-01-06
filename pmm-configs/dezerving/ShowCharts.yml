@@ -17,7 +17,7 @@ collections:
       list_days: 30
       list_size: 20
       list_buffer: 20
-    summary: Shows Popular on Plex
+    summary: Popular Shows on Plex
     url_poster: https://i.imgur.com/EfNjXO2.png
   Trending:
     template: { name: Chart, num: 2 }
@@ -26,14 +26,14 @@ collections:
     tmdb_trending_weekly: 10
     sonarr_add: true
     sonarr_search: false
-    sonarr_monitor: false
-    summary: Shows Trending across the internet
+    sonarr_monitor: none
+    summary: Trending Shows across the internet
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
     sonarr_add: false
     sonarr_search: false
-    sonarr_monitor: false
+    sonarr_monitor: none
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
       limit: 40
@@ -46,12 +46,12 @@ collections:
     tmdb_top_rated: 100
     sonarr_add: false
     sonarr_search: false
-    sonarr_monitor: false
-    summary: Top Rated Movies across the internet
+    sonarr_monitor: none
+    summary: Top Rated Shows across the internet
   Emmy Winners:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     sonarr_add: false
     sonarr_search: false
-    sonarr_monitor: false
+    sonarr_monitor: none
     summary: Emmy Winning Shows
