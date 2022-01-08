@@ -20,6 +20,13 @@ collections:
         hdr: true
     item_overlay: HDR
     build_collection: false
+  Dolby:
+    plex_all: true
+    filters:
+      filepath: DoVi
+      resolution.not: 4K
+    item_overlay: Dolby
+    build_collection: false
   Marvel Cinematic Universe:
 #    template: {name: Collection, collection: 9387}
 #    template: {name: Collection}
