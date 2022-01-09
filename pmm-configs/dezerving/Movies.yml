@@ -24,7 +24,6 @@ collections:
     plex_all: true
     filters:
       filepath: DoVi
-      resolution.not: 4K
     item_overlay: Dolby
     build_collection: false
   Marvel Cinematic Universe:
