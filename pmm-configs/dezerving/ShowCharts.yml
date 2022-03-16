@@ -39,7 +39,7 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
       limit: 40
     summary: Popular Shows across the internet
-    url_poster: https://drive.google.com/file/d/1hOWAdrR3HbnIwwGLVOKCXK4fL6ruQ3UB/view?usp=sharing
+    url_poster: https://i.imgur.com/S2YX31m.jpg
   Top Rated:
     template: { name: Chart, num: 4 }
     imdb_list:
