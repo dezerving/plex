@@ -19,10 +19,12 @@ collections:
       - https://www.imdb.com/list/ls000094398/
       - https://www.imdb.com/list/ls057783436/
       - https://www.imdb.com/list/ls064427905/
+    url_poster: https://i.imgur.com/HrDJUtH.jpg
   St. Patrick's Day Movies:
     schedule: range(03/01-03/17)
     template: {name: Holiday, holiday: "St. Patrick's Day"}
     imdb_list: https://www.imdb.com/list/ls063934595/
+    url_poster: https://i.imgur.com/ApGqMG7.jpg
   Thanksgiving Movies:
     schedule: range(10/17-10/31)
     sort_title: '!AA'
@@ -30,6 +32,7 @@ collections:
     imdb_list: 
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
+    url_poster: https://i.imgur.com/gkKgn3m.jpg
   Halloween Movies:
     schedule: range(10/01-10/31)
     sort_title: '!AB'
@@ -39,6 +42,7 @@ collections:
       - https://www.imdb.com/list/ls000099714/
       - https://www.imdb.com/list/ls000058693/
       - https://www.imdb.com/search/title/?genres=horror&keywords=haunted-house&sort=moviemeter,asc
+    url_poster: https://i.imgur.com/q5bPK0k.jpg
     tmdb_collection:
       - 91361    # Halloween Collection
       - 8581     # A Nightmare on Elm Street Collection
@@ -56,8 +60,10 @@ collections:
       - https://www.imdb.com/list/ls068976997/
       - https://www.imdb.com/list/ls027567380/
     collection_order: release
+    url_poster: https://i.imgur.com/hkUB9Rh.jpg
   New Year's Eve Movies:
     schedule: range(12/26-01/05)
     sort_title: '!AA'
     template: {name: Holiday, holiday: "New Year's Eve"}
     imdb_list: https://www.imdb.com/list/ls066838460/
+    url_poster: https://i.imgur.com/crqrLhG.jpg
