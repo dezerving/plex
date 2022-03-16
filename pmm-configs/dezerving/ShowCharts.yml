@@ -28,6 +28,7 @@ collections:
     sonarr_search: false
     sonarr_monitor: none
     summary: Trending Shows across the internet
+    url_poster: https://i.imgur.com/vbLXb1B.jpg
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
@@ -38,6 +39,7 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
       limit: 40
     summary: Popular Shows across the internet
+    url_poster: https://drive.google.com/file/d/1hOWAdrR3HbnIwwGLVOKCXK4fL6ruQ3UB/view?usp=sharing
   Top Rated:
     template: { name: Chart, num: 4 }
     imdb_list:
@@ -48,6 +50,7 @@ collections:
     sonarr_search: false
     sonarr_monitor: none
     summary: Top Rated Shows across the internet
+    url_poster: https://i.imgur.com/Xol34HC.jpg
   Emmy Winners:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
@@ -55,3 +58,4 @@ collections:
     sonarr_search: false
     sonarr_monitor: none
     summary: Emmy Winning Shows
+    url_poster: https://i.imgur.com/3fnpph9.jpg
