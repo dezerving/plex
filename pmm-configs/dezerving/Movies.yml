@@ -23,7 +23,8 @@ collections:
   Dolby:
     plex_all: true
     filters:
-      filepath: DoVi
+#      filepath: DoVi
+      has_dolby_vision: true
     item_overlay: Dolby
     build_collection: false
   Marvel Cinematic Universe:
