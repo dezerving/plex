@@ -7,54 +7,54 @@ templates:
     sync_mode: sync
     smart_label: episode_added.desc
 collections:
-  HBO Max:
+  HBO Max Shows:
     template: { name: network, network: "49, 2593, 3186, 3308" }
     url_poster: https://i.imgur.com/sZ1hj9z.png
 #  Cinemax:
 #    template: { name: network, network: 359 }
-  Showtime:
+  Showtime Shows:
     template: { name: network, network: 67 }
     url_poster: https://i.imgur.com/LTBT1kT.png
-  Netflix:
+  Netflix Shows:
     template: { name: network, network: 213 }
     url_poster: https://i.imgur.com/QbAK6Vb.png
-  Hulu:
+  Hulu Shows:
     template: { name: network, network: 453 }
     url_poster: https://i.imgur.com/MHRDxr6.png
-  Syfy:
+  Syfy Shows:
     template: { name: network, network: "77, 3701" }
-  Starz:
+  Starz Shows:
     template: { name: network, network: "318, 758, 4906" }
     url_poster: https://i.imgur.com/Jb62J6v.png
-  HGTV:
+  HGTV Shows:
     template: { name: network, network: 210 }
-  TBS:
+  TBS Shows:
     template: { name: network, network: "68, 160, 4888" }
-  NatGeo:
+  NatGeo Shows:
     template: { name: network, network: "43, 799, 1756, 1825, 3355, 4293, 4476" }
     url_poster: https://i.imgur.com/YOACBTA.png
-  Peacock:
+  Peacock Shows:
     template: { name: network, network: 3353 }
     url_poster: https://i.imgur.com/cmVLWQo.png
-  Prime Video:
+  Prime Video Shows:
     template: { name: network, network: 1024 }
     url_poster: https://i.imgur.com/CL11uOh.png
-  Paramount+:
+  Paramount+ Shows:
     template: { name: network, network: "2076, 4330" }
     url_poster: https://i.imgur.com/uqkK3eD.png
-  YouTube:
+  YouTube Shows:
     template: { name: network, network: "247, 1436, 4869" }
-  FX:
+  FX Shows:
     template: { name: network, network: 88 }
     url_poster: https://i.imgur.com/II9zpHy.png
-  Disney+:
+  Disney+ Shows:
     template: { name: network, network: "2739, 2919" }
     url_poster: https://i.imgur.com/rMeUuh9.png
-  Apple TV+:
+  Apple TV+ Shows:
     template: { name: network, network: 2552 }
     url_poster: https://i.imgur.com/p8wlTY8.png
-  Discovery+:
+  Discovery+ Shows:
     template: { name: network, network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741" }
     url_poster: https://i.imgur.com/en5xPEP.png
-  A&E:
+  A&E Shows:
     template: { name: network, network: "129, 2639, 3688" }
