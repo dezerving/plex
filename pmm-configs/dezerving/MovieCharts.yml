@@ -32,6 +32,9 @@ collections:
     tmdb_trending_weekly: 10
     summary: Movies Trending across the internet
     url_poster: https://i.imgur.com/9tcdeU4.png
+    radarr_add_missing: true
+    radarr_search: true
+    radarr_monitor: true
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
