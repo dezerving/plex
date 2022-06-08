@@ -280,3 +280,32 @@ overlays:
     plex_search:
       all:
         hdr: true
+
+Criterion:
+    template:
+      - name: SpecialRelease
+        weight: 30
+        slug: criterion
+    plex_all: true
+    filters:
+      filepath.regex:
+        - '(?i)Criterion'
+        - '(?i)\[CC\]'
+
+  IMAX-E:
+    template:
+      - name: SpecialRelease
+        weight: 20
+        slug: enhanced
+    plex_all: true
+    filters:
+      filepath.regex: '(?i)\bIMAX Enhanced\b'
+
+  IMAX:
+    template:
+      - name: SpecialRelease
+        weight: 10
+        slug: imax
+    plex_all: true
+    filters:
+      filepath.regex: '(?i)\bIMAX\b'
