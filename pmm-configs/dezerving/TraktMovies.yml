@@ -20,3 +20,5 @@ collections:
     template:
     - name: Trakt
     trakt_list: https://trakt.tv/users/garycrawfordgc/lists/netflix-movies?sort=rank,asc
+    visible_home: true
+    visible_shared: true
