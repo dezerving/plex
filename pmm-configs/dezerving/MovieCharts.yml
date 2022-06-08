@@ -73,7 +73,7 @@ collections:
     smart_label: year.desc
     sync_mode: sync
     summary: The Top Ten Most Downloaded Movies of the Week
-    radarr_add: true
+    radarr_add_missing: true
     radarr_search: true
     radarr_monitor: true
     url_background: https://i.imgur.com/SOVfrIq.png
