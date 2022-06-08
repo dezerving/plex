@@ -61,6 +61,41 @@
 #          # Use the IMAX overlay                           #
 #          use_imax: true                                   #
 #############################################################
+#  Call this from your config.yml (Movie or Show):          #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    overlay_path:                                          #
+#      - git: PMM/overlays/streaming                        #
+#        template_variables:                                #
+#          # Set the horizontal offset for the overlay      #
+#          horizontal_offset: 15                            #
+#          # Set the horizontal align for the overlay       #
+#          horizontal_align: left                           #
+#          # Set the vertical offset for the overlay        #
+#          vertical_offset: 135                             #
+#          # Set the vertical align for the overlay         #
+#          vertical_align: top                              #
+#                                                           #
+#          # Use the Amazon overlay                         #
+#          use_amazon: true                                 #
+#          # Use the AppleTV overlay                        #
+#          use_appletv: true                                #
+#          # Use the Disney overlay                         #
+#          use_disney: true                                 #
+#          # Use the HBO-Max overlay                        #
+#          use_hbomax: true                                 #
+#          # Use the Hulu overlay                           #
+#          use_hulu: true                                   #
+#          # Use the Netflix overlay                        #
+#          use_netflix: true                                #
+#          # Use the Paramount overlay                      #
+#          use_paramount: true                              #
+#          # Use the Peacock overlay                        #
+#          use_peacock: true                                #
+#          # Use the YouTube overlay                        #
+#          use_youtube: true                                #
+#############################################################
+
 templates:
   Resolution:
     optional:
