@@ -14,19 +14,6 @@ templates:
     radarr_search: false
     radarr_monitor: false
 collections:
-  HDR Overlay:
-    plex_search:
-      all:
-        hdr: true
-    item_overlay: HDR
-    build_collection: false
-  Dolby:
-    plex_all: true
-    filters:
-#      filepath: DoVi
-      has_dolby_vision: true
-    item_overlay: Dolby
-    build_collection: false
   Marvel Cinematic Universe:
 #    template: {name: Collection, collection: 9387}
 #    template: {name: Collection}
