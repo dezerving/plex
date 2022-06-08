@@ -11,29 +11,6 @@ templates:
     sync_mode: sync
     collection_order: release
 collections:
-  4K Overlay:
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: false
-    item_overlay: 4K
-    build_collection: false
-  4K-HDR Overlay:
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: true
-    item_overlay: 4K-HDR
-    build_collection: false
-  4K-Dolby:
-    plex_search:
-      all:
-        resolution: 4K
-    filters:
-#      filepath: DoVi
-      has_dolby_vision: true
-    item_overlay: 4K-Dolby
-    build_collection: false
   Marvel Cinematic Universe:
     imdb_list: https://www.imdb.com/list/ls031310794/
     url_poster: https://theposterdb.com/api/assets/36047
