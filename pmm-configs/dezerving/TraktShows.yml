@@ -20,9 +20,11 @@ collections:
     template:
     - name: Trakt
     trakt_list: https://trakt.tv/users/garycrawfordgc/lists/netflix-shows?sort=rank,asc
+    collection_order: release.desc
     
   Latest HBO Shows:
     template:
     - name: Trakt
     trakt_list: https://trakt.tv/users/garycrawfordgc/lists/hbo-shows?sort=rank,asc
+    collection_order: release.desc
     
