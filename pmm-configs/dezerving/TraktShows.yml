@@ -1,0 +1,28 @@
+######################################################
+#              Trakt Shows Collections               #
+######################################################
+templates:
+  Trakt:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    radarr_add: true
+    radarr_search: false
+    radarr_monitor: false
+    radarr_tag: pmm
+
+collections:
+  Latest Netflix Shows:
+    template:
+    - name: Trakt
+    trakt_list: https://trakt.tv/users/garycrawfordgc/lists/netflix-shows?sort=rank,asc
+    
+  Latest HBO Shows:
+    template:
+    - name: Trakt
+    trakt_list: https://trakt.tv/users/garycrawfordgc/lists/hbo-shows?sort=rank,asc
+    
