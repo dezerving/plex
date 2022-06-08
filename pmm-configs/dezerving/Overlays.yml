@@ -1,26 +1,52 @@
 #########################################################
 #                  Overlay Collections                  #
 #########################################################
-collections:
-  4K Overlay:
+# collections:
+#   4K Overlay:
+#     plex_search:
+#       all:
+#         resolution: 4K
+#         hdr: false
+#     item_overlay: 4K
+#     build_collection: false
+#   4K-HDR Overlay:
+#     plex_search:
+#       all:
+#         resolution: 4K
+#         hdr: true
+#     item_overlay: 4K-HDR
+#     build_collection: false
+#   HDR Overlay:
+#     plex_search:
+#       all:
+#         hdr: true
+#     filters:
+#       resolution.not: 4K
+#     item_overlay: HDR
+#     build_collection: false
+overlays:
+  4K:
+    overlay:
+      file: /config/4K/overlay.png    # This will look for a local overlays/4K.png in your config folder
     plex_search:
       all:
         resolution: 4K
-        hdr: false
-    item_overlay: 4K
-    build_collection: false
-  4K-HDR Overlay:
+  4K HDR:
+    overlay:
+      file: /config/4K-HDR/overlay.png
     plex_search:
       all:
         resolution: 4K
         hdr: true
-    item_overlay: 4K-HDR
-    build_collection: false
-  HDR Overlay:
+  HDR:
+    overlay:
+      file: /config/HDR/overlay.png
     plex_search:
       all:
         hdr: true
+  Dolby:
+    overlay:
+      file: /config/Dolby/overlay.png
+    plex_all: true
     filters:
-      resolution.not: 4K
-    item_overlay: HDR
-    build_collection: false
+      has_dolby_vision: true
