@@ -20,6 +20,8 @@ collections:
     template:
     - name: Trakt
     trakt_list: https://trakt.tv/users/garycrawfordgc/lists/netflix-shows?sort=rank,asc
+    visible_home: true
+    visible_shared: true
     collection_order: release.desc
     
   Latest HBO Shows:
