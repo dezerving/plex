@@ -115,6 +115,45 @@
 #          # Set the vertical align for the overlay         #
 #          vertical_align: bottom                           #
 #############################################################
+#  Designed for TRaSH Guides filename naming scheme         #
+#  https://trash-guides.info/                               #
+#                                                           #
+#  Call this from your config.yml (Movie or Show):          #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    overlay_path:                                          #
+#      - git: PMM/overlays/audio_codec                      #
+#        template_variables:                                #
+#          # Set episode or season to overlay               #
+#          overlay_level:                                   #
+#          # Set the horizontal offset for the overlay      #
+#          horizontal_offset: 0                             #
+#          # Set the horizontal align for the overlay       #
+#          horizontal_align: center                         #
+#          # Set the vertical offset for the overlay        #
+#          vertical_offset: 15                              #
+#          # Set the vertical align for the overlay         #
+#          vertical_align: top                              #
+#                                                           #
+#          # Use the Opus overlay                           #
+#          use_opus: true                                   #
+#          # Use the Dolby-Digital overlay                  #
+#          use_digital: true                                #
+#          # Use the DTS overlay                            #
+#          use_dts: true                                    #
+#          # Use the DTS-ES overlay                         #
+#          use_es: true                                     #
+#          # Use the DTS-HD overlay                         #
+#          use_hd: true                                     #
+#          # Use the Dolby-TrueHD overlay                   #
+#          use_truehd: true                                 #
+#          # Use the Dolby-Digital-Plus overlay             #
+#          use_plus: true                                   #
+#          # Use the Dolby-Atmos overlay                    #
+#          use_atmos: true                                  #
+#          # Use the DTS-X overlay                          #
+#          use_x: true                                      #
+#############################################################
 
 templates:
   Resolution:
