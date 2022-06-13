@@ -7,7 +7,7 @@ templates:
     sync_mode: sync
     smart_label: random
 collections:
-  Popular on Plex:
+  Popular Shows on Plex:
     template: { name: Chart, num: 1 }
     tautulli_popular:
       list_days: 30
@@ -19,7 +19,7 @@ collections:
       list_buffer: 20
     summary: Popular Shows on Plex
     url_poster: https://i.imgur.com/EfNjXO2.png
-  Trending:
+  Top 10 Shows:
     template: { name: Chart, num: 2 }
     trakt_trending: 10
     tmdb_trending_daily: 10
@@ -29,7 +29,7 @@ collections:
     sonarr_monitor: none
     summary: Trending Shows across the internet
     url_poster: https://i.imgur.com/vbLXb1B.jpg
-  Popular:
+  Popular Shows:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
     sonarr_add: false
@@ -40,7 +40,7 @@ collections:
       limit: 40
     summary: Popular Shows across the internet
     url_poster: https://i.imgur.com/S2YX31m.jpg
-  Top Rated:
+  Top Rated Shows:
     template: { name: Chart, num: 4 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
