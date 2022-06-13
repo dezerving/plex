@@ -10,10 +10,10 @@ templates:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
-    radarr_add: true
-    radarr_search: false
-    radarr_monitor: false
-    radarr_tag: pmm
+    sonarr_add: true
+    sonarr_search: false
+    sonarr_monitor: false
+    sonarr_tag: pmm
 
 collections:
   Latest Netflix Shows:
