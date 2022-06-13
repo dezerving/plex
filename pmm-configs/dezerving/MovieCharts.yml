@@ -13,7 +13,7 @@ templates:
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
 collections:
-  Popular on Plex:
+  Popular Movies on Plex:
     template: { name: Chart, num: 1 }
     tautulli_popular:
       list_days: 30
@@ -25,7 +25,7 @@ collections:
       list_buffer: 20
     summary: Movies Popular on Plex
     url_poster: https://i.imgur.com/EfNjXO2.png
-  Trending:
+  Top 10 Movies:
     template: { name: Chart, num: 2 }
     trakt_trending: 10
     tmdb_trending_daily: 10
@@ -35,7 +35,7 @@ collections:
     radarr_add_missing: true
     radarr_search: true
     radarr_monitor: true
-  Popular:
+  Popular Movies:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
     imdb_list:
@@ -43,7 +43,7 @@ collections:
       limit: 40
     summary: Popular Movies across the internet
     url_poster: https://i.imgur.com/6Xi2y6A.jpg
-  Top Rated:
+  Top 250 Movies:
     template: { name: Chart, num: 4 }
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
@@ -70,7 +70,7 @@ collections:
 #    template: { name: Best of, year: 2020 }
 #  Best of 2021:
 #    template: { name: Best of, year: 2021 }
-  Top Ten Downloaded Weekly:
+  Top 10 Downloaded Movies:
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
     sort_title: +1_C
     smart_label: year.desc
@@ -81,38 +81,38 @@ collections:
     radarr_monitor: true
     url_background: https://i.imgur.com/SOVfrIq.png
     url_poster: https://i.imgur.com/dYdjSOu.png
-  Mind Bending Movies:
-    trakt_list:
-     - https://trakt.tv/users/hdlists/lists/mindfuck-movies
-     - https://trakt.tv/users/benfranklin/lists/best-mindfucks
-    sort_title: +1_CCC
-    smart_label: critic_rating.desc
-    sync_mode: sync
-    summary: There’s nothing greater than a film that makes you think. A film that lingers on your mind long after the credits have rolled and is the subject of many conversation and discussion. Trying to piece together the puzzle of what you saw and coming to a conclusion that makes sense or still doesn’t add up.
+#   Mind Bending Movies:
+#     trakt_list:
+#      - https://trakt.tv/users/hdlists/lists/mindfuck-movies
+#      - https://trakt.tv/users/benfranklin/lists/best-mindfucks
+#     sort_title: +1_CCC
+#     smart_label: critic_rating.desc
+#     sync_mode: sync
+#     summary: There’s nothing greater than a film that makes you think. A film that lingers on your mind long after the credits have rolled and is the subject of many conversation and discussion. Trying to piece together the puzzle of what you saw and coming to a conclusion that makes sense or still doesn’t add up.
 #    url_poster: https://i.imgur.com/Tl6QMgA.png
 #    url_background: https://i.imgur.com/DM1Im1X.jpeg
-  Parody Movie Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: +1_CCCC
-    summary: Top 50 Parody Movies of All Time
-    radarr_add: false
-    radarr_search: false
-    radarr_monitor: false
-    url_poster: https://i.imgur.com/yFtJ5eV.png
-    url_background: https://i.imgur.com/eELv4eB.jpg
-  Documentary Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: +1_CCCCC
-    summary: Top Rated Documentaries from 1980 onward
-    radarr_add: false
-    radarr_search: false
-    radarr_monitor: false
-    url_poster: https://i.imgur.com/2AtAgce.jpg
-    url_background: https://i.imgur.com/lJQwoDH.jpg
+#   Parody Movie Collection:
+#     trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
+#     sync_mode: sync
+#     smart_label: critic_rating.desc
+#     sort_title: +1_CCCC
+#     summary: Top 50 Parody Movies of All Time
+#     radarr_add: false
+#     radarr_search: false
+#     radarr_monitor: false
+#     url_poster: https://i.imgur.com/yFtJ5eV.png
+#     url_background: https://i.imgur.com/eELv4eB.jpg
+#   Documentary Collection:
+#     trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today
+#     sync_mode: sync
+#     smart_label: critic_rating.desc
+#     sort_title: +1_CCCCC
+#     summary: Top Rated Documentaries from 1980 onward
+#     radarr_add: false
+#     radarr_search: false
+#     radarr_monitor: false
+#     url_poster: https://i.imgur.com/2AtAgce.jpg
+#     url_background: https://i.imgur.com/lJQwoDH.jpg
   Movies People are Watching:
     trakt_list: https://trakt.tv/users/hdlists/lists/top-films-everyone-s-watching
     sort_title: +1_CCCCCC
