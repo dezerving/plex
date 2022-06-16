@@ -51,8 +51,9 @@ collections:
       list_days: 30
       list_size: 30
       list_buffer: 20
-    summary: A collection of movies and shows Popular on Plex over the last month.
+    summary: A collection of movies popular on Plex over the last month.
     url_poster: https://i.imgur.com/EfNjXO2.png
+    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     visible_library: true
     visible_home: true
     visible_shared: true
