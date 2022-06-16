@@ -38,6 +38,9 @@ Popular Shows on Plex:
       list_days: 30
       list_size: 20
       list_buffer: 20
-    summary: A collection of the most popular shows on Plex.
+    summary: A collection of shows popular on Plex over the last month.
     url_poster: https://i.imgur.com/EfNjXO2.png
     url_background: https://wallpapercave.com/wp/wp5054947.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
