@@ -1,0 +1,18 @@
+#######################################################
+#               Language Collections                  #
+#######################################################
+templates:
+  Language:
+    plex_search:
+      all:
+        audio_language: <<language>>
+    smart_label: release.desc
+    sort_title: '!+08_<<collection_name>>'
+    sync_mode: sync
+    visible_home: true
+    visible_shared: true
+collections:
+  Bollywood Movies:
+    template: {name: Language, language: hi}
+    summary: "Here is the current collection of Bollywood movies available on Plex. Includes all movies that have Hindi audio."
+    url_poster: https://i.imgur.com/s52KOu1.jpg
