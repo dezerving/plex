@@ -11,8 +11,10 @@ templates:
     sync_mode: sync
     visible_home: true
     visible_shared: true
+#    schedule: weekly(friday, monday)
 collections:
   Bollywood Movies:
     template: {name: Language, language: hi}
     summary: "Here is the current collection of Bollywood movies available on Plex. Includes all movies that have Hindi audio."
     url_poster: https://i.imgur.com/s52KOu1.jpg
+    
