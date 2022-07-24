@@ -3,7 +3,7 @@
 ######################################################
 
 collections:
-  Trending Shows:
+  Trending:
     sort_title: +01_1Trending
     sync_mode: sync
     collection_order: custom
@@ -15,7 +15,7 @@ collections:
     visible_home: true
     visible_shared: true
 
-  Recommended Shows:
+  Recommended:
     sort_title: +01_2Popular
     sync_mode: sync
     smart_label: random
@@ -27,7 +27,7 @@ collections:
     visible_home: true
     visible_shared: true
 
-Popular Shows on Plex:
+Popular on Plex:
     sort_title: +01_3PlexPopular
     sync_mode: sync
     tautulli_popular:
