@@ -10,7 +10,7 @@ templates:
       any:
         network: <<network>>
     sort_title: +03_<<collection_name>>
-    url_background: https://wallpaper.dog/large/20509069.jpg
+#    url_background: https://wallpaper.dog/large/20509069.jpg
 #    schedule: weekly (sunday)
 
 collections:
