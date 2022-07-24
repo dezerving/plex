@@ -10,7 +10,7 @@ collections:
     trakt_trending: 150
     summary: A collection of movies trending across the internet
     url_poster: https://i.imgur.com/LFJnVzC.jpg
-    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
+#    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     visible_library: true
     visible_home: true
     visible_shared: true
@@ -22,7 +22,7 @@ collections:
     trakt_watched_weekly: 150
     summary: A collection of the most watched movies over the past week.
     url_poster: https://i.imgur.com/WhHiFPX.jpg
-    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
+#    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     visible_library: true
     visible_home: true
     visible_shared: true
@@ -53,7 +53,7 @@ collections:
       list_buffer: 20
     summary: A collection of movies popular on Plex over the last month.
     url_poster: https://i.imgur.com/EfNjXO2.png
-    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
+#    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     visible_library: true
     visible_home: true
     visible_shared: true
