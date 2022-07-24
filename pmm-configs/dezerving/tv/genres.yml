@@ -3,7 +3,7 @@ templates:
     default:
       exclude: Children, Anime, Western, Cooking
     sort_title: +02_<<collection_name>>
-    url_background: https://wallpaper.dog/large/20509069.jpg
+#    url_background: https://wallpaper.dog/large/20509069.jpg
     smart_filter:
       sort_by: release.desc
       validate: false
