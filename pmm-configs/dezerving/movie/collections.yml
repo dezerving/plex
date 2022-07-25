@@ -50,6 +50,7 @@ collections:
   Marvel Cinematic Universe:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
+    collection_order: release
     url_poster: https://i.imgur.com/iDi8DBe.jpeg
 #    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
     
