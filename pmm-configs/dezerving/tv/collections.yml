@@ -1,0 +1,32 @@
+######################################################
+#                   TV Collections                   #
+######################################################
+templates:
+  collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sort_title: +09_<<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+#    schedule: weekly(friday)
+    radarr_add: true
+    radarr_search: false
+    radarr_monitor: false
+
+collections:
+  Marvel Cinematic Universe:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
+    collection_order: release
+    url_poster: https://i.imgur.com/iDi8DBe.jpeg
+#    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
+    
+  Marvel Cinematic Universe - Chronological:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/username57/lists/marvel-cinematic-universe-mcu-timeline?sort=rank,asc
+    collection_order: custom
+    url_poster: https://i.imgur.com/iDi8DBe.jpeg
+#    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
