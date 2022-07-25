@@ -9,9 +9,9 @@ collections:
     summary: Recently added.
     smart_filter:
       all:
-        added: 14
+        added: 28
       sort_by: added.asc
-      limit: 30
+      limit: 90
     visible_library: true
     visible_home: true
     visible_shared: true
