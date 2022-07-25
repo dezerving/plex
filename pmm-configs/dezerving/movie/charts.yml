@@ -3,6 +3,19 @@
 ######################################################
 
 collections:
+  Recently Added:
+    sort_title: ++01_1RecentlyAdded
+    sync_mode: sync
+    summary: Recently added.
+    smart_filter:
+      all:
+        added: 14
+      sort_by: added.asc
+      limit: 30
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
   Trending:
     sort_title: +01_1Trending
     sync_mode: sync
