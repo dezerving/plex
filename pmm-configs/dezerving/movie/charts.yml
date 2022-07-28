@@ -55,7 +55,7 @@ collections:
   Popular on Plex:
     sort_title: +01_4PlexPopular
     sync_mode: sync
-    collection_order: custom
+    collection_order: random
     tautulli_popular:
       list_days: 30
       list_size: 30
