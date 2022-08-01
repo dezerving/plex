@@ -22,6 +22,8 @@ collections:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
     collection_order: release
     url_poster: https://i.imgur.com/6G109C3.jpg
+    radarr_monitor: true
+    radarr_search: true
 #    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
     
   Marvel Cinematic Universe - Chronological:
